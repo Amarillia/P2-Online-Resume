@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Edina Orban's Resume</title>
+
+  <!-- Load the page styles. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+
+  <script src="js/jQuery.js"></script>
+  <script src="js/helper.js"></script>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- Navigation section   -->
+
+  <div class="navbar navbar-fixed-top">
+    <div>
+      <div class="container"> 
+      
+      <!--Button to collapse the Navigation--> 
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><img src="images/collapsible-btn.png" >MENU</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav nav-pills nav-justified">
+            <li class=""><a href = "#topContacts">About me</a></li>
+            <li class=""><a href = "#workExperience">Experiences</a></li>
+            <li class=""><a href = "#projects">Projects</a></li>
+            <li class=""><a href = "#education">Education</a></li>
+            <li class=""><a href = "#mapDiv">Map</a></li>
+            <li class=""><a href = "#letsConnect">Connect</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse --> 
+      </div>
+    </div>
+  </div>
+
+  <div>
+
+    <div id="header" class="center-content clearfix">
+      <ul id="topContacts" ></ul>
+    </div>
+    
+    <div style='clear: both'></div>
+
+    <div id="skills" class='dark-gray text-center'>
+      <h2>Skills</h2>
+    </div>
+
+    <div id="workExperience" class='dark-gray text-center'>
+      <h2>Work Experience</h2>
+    </div>
+    
+    <div id="projects" class ="dark-gray text-center">
+      <h2>Projects</h2>
+    </div>
+    
+    <div id="education" class='dark-gray text-center'>
+      <h2>Education</h2>
+    </div>
+    
+    <div id="mapDiv" class ="dark-gray text-center">
+      <h2>Where I've Lived and Worked</h2>
+    </div>
+    
+    <div id="letsConnect" class='dark-gray text-center'>
+      <h2 class='blue center-text'>Let's Connect</h2>
+        <ul id="footerContacts" class="flex-box">
+      </ul>
+    </div>
+  </div>
+
+  <script src="js/resumeBuilder.js"></script>
+
+
+  <!--checking to see if you have not changed each section of the resume. If you have not made any changes to a section
+  of the resume, then that part of the resume does not show up. -->
+
+  <script type="text/javascript">
+
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      document.getElementById('topContacts').style.display = 'none';
+    }
+    if(document.getElementsByTagName('h1').length === 0) {
+      document.getElementById('header').style.display = 'none';
+    }
+
+    if(document.getElementsByClassName('skills-entry').length === 0) {
+      document.getElementById('skills').style.display = 'none';
+    }
+
+    if(document.getElementsByClassName('work-entry').length === 0) {
+      document.getElementById('workExperience').style.display = 'none';
+    }
+    if(document.getElementsByClassName('project-entry').length === 0) {
+      document.getElementById('projects').style.display = 'none';
+    }
+    if(document.getElementsByClassName('education-entry').length === 0) {
+      document.getElementById('education').style.display = 'none';
+    }
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      document.getElementById('letsConnect').style.display = 'none';
+    }
+    if(document.getElementById('map') === null) {
+      document.getElementById('mapDiv').style.display = 'none';
+    }
+  </script>
+
+<!-- Modal for biopic -->
+<div class="modal fade" id="biopic" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">My picture</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/my_picture.jpg">
+        This is a picture about me
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+
+</body>
+</html>
