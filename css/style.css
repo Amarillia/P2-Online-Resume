@@ -1,7 +1,6 @@
 * {
   font-family: 'Source Sans Pro', sans-serif;
   border-box: 80%;
-
 }
 
 /* headers*/
@@ -46,6 +45,7 @@ h2, h3, h4, h5 {
 
 body {
   margin: 0;
+    background-color: #000;
 }
 
 
@@ -107,23 +107,15 @@ img.biopic {
   position: relative;
 }
 
-ul.nav.nav-pills {
-  width: 100%;
-  cursor:pointer;
-  background-color: #4A4A4A;
-  font-weight: bold;
-  font-size: 15px;
-  filter:alpha(opacity=80);-moz-opacity:.8;opacity:.8;
+.navbar{
+  background-color: #000;
+    filter:alpha(opacity=80);-moz-opacity:.8;opacity:.8;
+
 }
 
 .nav-justified>li>a {
   color:#22A39F;
   text-decoration: none;
-}
-
-.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
-  background-color: #22A39F;
-  box-shadow: 0 2px 3px rgba(0,0,0 .4);
 }
 
 .navbar .navbar-collapse {
@@ -238,6 +230,7 @@ i, cite, em, var, address, dfn {
 
 img {
   padding: 10px;
+  vertical-align: left;
 }
 
 /* Internationalize button */
