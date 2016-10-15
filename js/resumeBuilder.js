@@ -61,7 +61,7 @@ var work = {
 		"employer": "Kuehne-Nagel",
 		"title": "Administrator",
 		"description": "Assisting to investigate discrepancies on supplier jobs, requesting proof of deliveries where necessary and raising Purchase Orders in ACON.",
-		"dates": "2015 - Present",
+		"dates": "February 2015 - September 2016",
 		"location": "Derby, United Kingdom",
 		"url":"http://www.kn-portal.com/industry/drinks_logistics/"
 		}]
