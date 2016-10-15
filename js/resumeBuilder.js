@@ -105,7 +105,7 @@ var projects = {
 		"description": "This is my interactive CV what I have created as a Udacity project.",
 		"dates" : "2016",
 		"images" : ["images/cv_small.jpg"],
-		"url" : "index.html"
+		"url" : "http://n-media.net/wp-content/uploads/2013/05/Web-under-construction.jpeg"
 		},
 		{
 		"title": "Game",
