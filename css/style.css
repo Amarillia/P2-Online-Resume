@@ -107,24 +107,16 @@ img.biopic {
   position: relative;
 }
 
-.navbar{
-  background-color: #000;
-    filter:alpha(opacity=80);-moz-opacity:.8;opacity:.8;
-
+.navbar-default, a {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    color: #9E0900;
+    font-size: 1.5em;
 }
 
-.nav-justified>li>a {
-  color:#22A39F;
-  text-decoration: none;
-}
-
-.navbar .navbar-collapse {
-  padding: 0px;
-  max-height: none;
-}
-
-ul {
-  list-style-type: none;
+.navbar-brand{
+    font-size: 2em;
 }
 
 /* date text*/
