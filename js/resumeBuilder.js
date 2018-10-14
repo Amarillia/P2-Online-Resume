@@ -9,7 +9,7 @@ var bio = {
 		"github": "amarillia",
 		"location": "Derby, United Kingdom"
 		},
-	"welcomeMessage": "I'm open for possibilities. I'm open for choices. I always welcome new ideas. I'm always eager to learn. I'm never going to close my mind from learning. - Cesar Millan",
+	"welcomeMessage": "<p>I'm open for possibilities.</p><p>I'm open for choices.</p><p>I always welcome new ideas.</p><p>I'm always eager to learn.</p><p>I'm never going to close my mind from learning.</p> - Cesar Millan",
 	"skills": ["HTML ", "CSS ", "JavaScript ", "Python ", "JAVA", "Bootstrap", "Responsive Design"],
 	"biopic": ["images/my_picture.jpg"]
 };
@@ -58,12 +58,12 @@ bio.display()
 
 var work = {
 	"jobs": [{
-		"employer": "Kuehne-Nagel",
-		"title": "Administrator",
-		"description": "Assisting to investigate discrepancies on supplier jobs, requesting proof of deliveries where necessary and raising Purchase Orders in ACON.",
-		"dates": "February 2015 - September 2016",
+		"dates": "October 2018 - ",
+		"employer": "Bloc Digital",
+		"title": "Web Developer",
+		"description": "I Design & Build User Interfaces",
 		"location": "Derby, United Kingdom",
-		"url":"http://www.kn-portal.com/industry/drinks_logistics/"
+		"url":"https://www.bloc-digital.com/"
 		}]
 };
 
@@ -150,9 +150,17 @@ projects.display()
 
 var education = {
 	"schools": [
+		{
+		"name" : "IDI - Interactive Design Institute",
+		"dates" : "2018-2022",
+		"degree" : "BsC",
+		"major" : "Graphic Design",
+		"location" : "Edinburgh, Scotland",
+		"url" : "https://idesigni.co.uk/"
+		},
 	{
 		"name" : "Open University",
-		"dates" : "2012-2019",
+		"dates" : "2012-2022",
 		"degree" : "BsC",
 		"major" : "Computer Science",
 		"location" : "Milton Keynes, United Kingdom",
