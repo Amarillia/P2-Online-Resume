@@ -218,6 +218,10 @@ img.biopic {
   padding: 1% 5% 3%;
 }
 
+.navbar-toggle {
+  display: block;
+}
+
 /* date text*/
 
 .date-text {
@@ -499,5 +503,8 @@ h4 {
   }
   #footerContacts.flex-box {
     margin-left: 100px;
+  }
+  button[class='navbar-toggle'] {
+    display: none;
   }
 }
