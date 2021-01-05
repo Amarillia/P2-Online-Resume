@@ -4,14 +4,14 @@ var bio = {
 	"name" : "Edina Orban",
 	"role" : "Web Designer, Programmer and Illustrator",
 	"contacts" : {
-		"mobile": "0740 732 2563  (outside the UK call +44 (0)7407 322 563)",
+		"mobile": "0123 456 7891  (outside the UK call +44 (0)123 456 7891)",
 		"email": "mynick@gmail.com",
 		"github": "amarillia",
-		"location": "Derby, United Kingdom"
+		"location": "City, Country"
 		},
 	"welcomeMessage": "<p>I'm open for possibilities.</p><p>I'm open for choices.</p><p>I always welcome new ideas.</p><p>I'm always eager to learn.</p><p>I'm never going to close my mind from learning.</p> - Cesar Millan",
-	"skills": ["HTML ", "CSS ", "JavaScript ", "Python ", "JAVA", "Bootstrap", "Responsive Design"],
-	"biopic": ["images/my_picture.jpg"]
+	"skills": ["HTML ", "CSS ", "JavaScript ", "Bootstrap", "Responsive Design"],
+	"biopic": ["images/placeholder.png"]
 };
 
 bio.display = function() {
@@ -58,12 +58,12 @@ bio.display()
 
 var work = {
 	"jobs": [{
-		"dates": "October 2018 - ",
-		"employer": "Bloc Digital",
-		"title": "Web Developer",
-		"description": "I Design & Build User Interfaces",
-		"location": "Derby, United Kingdom",
-		"url":"https://www.bloc-digital.com/"
+		"dates": "Month Year - ",
+		"employer": "Company",
+		"title": "Job title",
+		"description": "Nice description of position",
+		"location": "City, Country",
+		"url":"https://www.google.com/"
 		}]
 };
 
@@ -165,19 +165,11 @@ var education = {
 		"major" : "Computer Science",
 		"location" : "Milton Keynes, United Kingdom",
 		"url" : "http://www.open.ac.uk/"
-		},
-	{
-		"name" : "Corvinus University",
-		"dates" : "2006-2011",
-		"degree" : "BA",
-		"major" : ["Economics"," Entrepreneurship"],
-		"location" : "Budapest, Hungary",
-		"url" : "http://cbs.uni-corvinus.hu/"
 		}
 	],
 	"onlineCourses" : [
 	{
-		"date" : "Sep, 2015 - Present",
+		"date" : "2015 - 2016",
 		"title" : "Front End NanoDegree",
 		"school" : "Udacity",
 		"url" : "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
