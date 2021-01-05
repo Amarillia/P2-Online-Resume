@@ -247,10 +247,3 @@ window.addEventListener('resize', function(e) {
 map.fitBounds(mapBounds);
 
 });
-
-const proxyurl = "https://cors-anywhere.herokuapp.com/";
-const url = "https://example.com"; // site that doesn’t send Access-Control-*
-fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/Amarillia/P2-Online-Resume/master/js/helper.js
-.then(response => response.text())
-.then(contents => console.log(contents))
-.catch(() => console.log("Can’t access " + url + " response. Blocked by browser?"))
